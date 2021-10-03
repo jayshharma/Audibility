@@ -1,0 +1,158 @@
+
+    *{
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color:#242424;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+
+    .navbar-brand{
+        font-size: 1.7rem !important;
+        font-weight: 700;
+        letter-spacing: -0.1rem;
+        color: #111111 !important;
+    
+    }
+    
+    .navbar-collapse{
+        font-size: 1.2rem !important;
+    }
+    
+    .navbar-toggler{
+        outline: none !important;
+    }
+
+    
+    .heropage {
+    margin-top: 3rem;
+    }
+
+    .noti {
+        vertical-align: middle;
+        margin: 0%;
+        font-weight: 700;
+        color: #044896;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 4rem;
+        color: ;
+        letter-spacing: -0.2rem;
+    }
+
+    .para{
+        color: 111111;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.1rem;
+    }
+
+    .button1 {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border: none;
+        color: white;
+        background-color: 24285B;
+        font-size: 1.2rem;
+        border: 0.15rem solid #24285B;
+    }
+    
+    .button2 {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: 24285B;
+        background-color: transparent;
+        border: 0.15rem solid #24285B;
+        font-size: 1.2rem;
+    }
+    
+    .headers{
+        font-weight: 700;
+        font-size: 2.5rem;
+        letter-spacing: -0.13rem;
+    }
+
+    .card {
+        border-radius: 1rem !important;
+        
+    }
+
+    .highlight {
+        background-color: 24285B;
+        padding: 0rem 0.2rem;
+        color: white;
+    }
+
+    .para2 {
+        color: 111111;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.1rem;
+    }
+
+    .health{
+        width: 30rem;
+
+    }
+
+    .memoji{
+        padding: 0rem !important;
+        margin: 0rem -2rem;
+    }
+
+    .names{
+        font-weight: bold;
+        letter-spacing: -0.1rem;
+    }
+    
+
+    @media (max-width: 576px) { 
+        .body {
+            text-align: center;
+        }
+        .notiwrap {
+            justify-content: center;
+        }
+        .heropage {
+            margin-top: 0rem !important;
+        }
+        .row {
+            text-align: center;
+        }
+        .landingimage {
+            margin: 0 !important;
+        }
+        .buttons {
+            padding: 2rem 0rem;
+        }
+        .para {
+            font-size: 1.6rem;
+            padding: 1rem 1rem 0rem 1rem;
+            margin-bottom: 0rem !important;
+        }
+        .title {
+            font-size: 3.8rem;
+        }
+        .col-lg-4 {
+            padding: 2rem 0rem !important;
+            margin: 0rem !important;
+        }
+        .companiestext {
+            margin-bottom: 0rem !important;
+            padding-bottom: 0rem !important;
+
+        }
+        .health{
+            width: 100%;
+        }
